@@ -1,0 +1,28 @@
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-gray-light main-background">
+	<div class="text-center">
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-white xs-p-60">
+			<p class="f-s-40">I <span class="glyphicon glyphicon-heart"></span> Color</p>
+			<p>Color really is'nt that dificult to get right. If you know where to start.</p>
+			<p>Learn by doing and you will be a master in no time</p>
+			<button class="btn bg-gray-dark xs-mt-30" ng-click="">Over to you</button>
+		</div>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+			<div ng-repeat="c in colors | limitTo:3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="well">
+					<span class="f-s-45 sm-p-30"><i ng-class="c.iconClass"></i></span>
+					<h3 ng-bind="c.name" class="sm-mb-20 xs-mb-10"></h3>
+					<p ng-bind="c.description" class="l-h-1-7"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+[{
+    "id": 1,
+    "name": "Green",
+    "description": "Green is the color between blue and yellow on the visible spectrum. It is evoked by light which has a dominant wavelength of roughly 495–570 nm. Lorem ipsum dolor sit amet, consectetur adipisicing e. Ut enim ad minim veniam, quis nostrud exercitation ullamco labo. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris quis nostrud exercitation",
+    "iconClass": "glyphicon glyphicon-knight"
+}, {
+    "id": 2,
+    "name": "red",
+    "description": "Red is the colour at the end of the visible spectrum of light, next to orange and opposite violet. It has a dominant wavelength of approximately 625–740 nanometres. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris quis nostrud exercitation. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...",
+    "iconClass": "glyphicon glyphicon-menu-hamburger"
+}, {
+    "id": 3,
+    "name": "blue",
+    "description": "Blue is one of the three primary colours of pigments in painting and traditional colour theory, as well as in the RGB colour model. It lies between violet and green on the spectrum of visible light. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris quis nostrud exercitation. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris....",
+    "iconClass": "glyphicon glyphicon-oil"
+}, {
+    "id": 4,
+    "name": "pink",
+    "description": "Pink is a pale red color that is named after a flower of the same name. It was first used as a color name in the late 17th century. According to surveys in Europe and the United States, pink is the color most often associated with charm, politeness, sensitivity, tenderness, sweetness, childhood, femininity and the romantic.",
+    "iconClass": "glyphicon glyphicon-btc"
+}, {
+    "id": 5,
+    "name": "black",
+    "description": "Black is the darkest shade, the result of the absence or complete absorption of visible light. It is an achromatic color, literally a shade without hue, like white (its opposite) and gray. It is often used symbolically or figuratively to represent darkness, while white represents light. Black ink is the most common shade (though sometimes thought of as a colour) used for printing books, newspapers and documents, because it has the highest contrast with white paper and is the easiest to read.",
+    "iconClass": "glyphicon glyphicon-education"
+}]

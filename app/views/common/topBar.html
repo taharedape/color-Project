@@ -1,0 +1,32 @@
+
+
+<nav class="navbar navbar-default" ng-style="{'background-color':selectedColor}" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" ng-click="isNavCollapsed = !isNavCollapsed">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <img src="../../images/logo.png" style="width: 65px">
+        
+    </div>
+    <div class="collapse navbar-collapse" uib-collapse="isNavCollapsed">
+        <ul class="nav navbar-nav navbar-right">
+            <li ng-repeat="c in colors"><a ng-click="selectColor(c)" href="" ng-bind="c.name"><i class="fa fa-lg fa-comments"></i></a></li>
+            <li class="dropdown">
+                <a data-toggle="dropdown">
+                    <div class="form-group group xs-mb-0">
+                        <div class="group xs-pl-5">
+                            <span class="glyphicon glyphicon-cog"></span>
+                        </div>
+                    </div>  
+                </a>
+                <ul class="dropdown-menu ">
+                    <li class="active" ng-disabled="true"><a href="#">Setting</a></li>
+                    <li><a ui-sref="default.manage">Manage</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
